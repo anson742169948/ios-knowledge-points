@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MThreadViewController.h"
 
 @interface ViewController ()
 {
@@ -20,8 +21,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    titles = @[@"CoreData",
-                        @"GCD"];
+    titles = @[@"TableView",
+               @"AutoLayout",
+               @"Audio",
+               @"Vedio",
+               @"Core Image",
+               @"Core Text",
+               @"View Animation",
+               @"Class Contact Class",
+               @"Timer",
+               @"HTTP Method",
+               @"Socket",
+               @"MultiThreading",
+               @"CoreData",
+               ];
+    _mainTable = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:_mainTable];
     
     _mainTable.delegate = self;
     _mainTable.dataSource = self;
@@ -39,6 +54,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
         
     }
+    [cell.textLabel setTextAlignment:NSTextAlignmentCenter];
     [cell.textLabel setText:titles[indexPath.row]];
     return cell;
 }
@@ -46,6 +62,23 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return titles.count;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSInteger row = [indexPath row];
+    NSString *rowTitle = [titles objectAtIndex:row];
+    
+    if ([rowTitle isEqualToString:@"MultiThreading"]) {
+        MThreadViewController *mth = [[MThreadViewController alloc]init];
+        [self.navigationController pushViewController:mth animated:YES];
+        [mth.navigationController.navigationBar.topItem setTitle:@"MultiThreading"];
+    }
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController.navigationBar.topItem setTitle:@"iOS Knowledges"];
 }
 
 - (void)didReceiveMemoryWarning {
