@@ -61,6 +61,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [self performSelector:@selector(unselectCell:) withObject:nil afterDelay:0.2];
+    
     NSInteger row = [indexPath row];
     NSString *rowTitle = [listTitles objectAtIndex:row];
     
@@ -81,6 +83,10 @@
         [self.navigationController pushViewController:operation animated:YES];
         [operation.navigationController.navigationBar.topItem setTitle:@"NSOperation"];
     }
+}
+
+-(void)unselectCell:(id)sender{
+    [listTable deselectRowAtIndexPath:[listTable indexPathForSelectedRow] animated:YES];
 }
 
 -(void)viewWillAppear:(BOOL)animated

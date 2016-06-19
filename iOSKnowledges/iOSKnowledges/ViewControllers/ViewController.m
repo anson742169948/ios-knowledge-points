@@ -66,6 +66,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [self performSelector:@selector(unselectCell:) withObject:nil afterDelay:0.2];
+    
     NSInteger row = [indexPath row];
     NSString *rowTitle = [titles objectAtIndex:row];
     
@@ -74,6 +76,10 @@
         [self.navigationController pushViewController:mth animated:YES];
         [mth.navigationController.navigationBar.topItem setTitle:@"MultiThreading"];
     }
+}
+
+-(void)unselectCell:(id)sender{
+    [_mainTable deselectRowAtIndexPath:[_mainTable indexPathForSelectedRow] animated:YES];
 }
 
 -(void)viewWillAppear:(BOOL)animated

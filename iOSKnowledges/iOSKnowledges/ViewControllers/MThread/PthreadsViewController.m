@@ -44,6 +44,7 @@ NSString *newTh;
     [tipView setCenter:CGPointMake(self.view.center.x, self.view.center.y-140)];
     [tipView setScrollsToTop:YES];
     [tipView setScrollEnabled:NO];
+    [tipView setEditable:NO];
     [tipView setBackgroundColor:[UIColor clearColor]];
     [self.view addSubview:tipView];
     
@@ -119,6 +120,11 @@ void *threadStart(void *data){
 {
     NSLog(@"isGetNewTH值改变！");
     [tipView setText:[NSString stringWithFormat:@"New Thread:%@\nPlease Close it!",newTh]];
+}
+
+-(void)dealloc
+{
+    [model removeObserver:self forKeyPath:@"isGetNewTH"];
 }
 
 - (void)didReceiveMemoryWarning {
