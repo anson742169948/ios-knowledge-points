@@ -16,6 +16,10 @@
 		1844E5721D1557ED008B72F7 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844E5711D1557ED008B72F7 /* GCDViewController.m */; };
 		1844E5751D155808008B72F7 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844E5741D155808008B72F7 /* OperationViewController.m */; };
 		1844E5791D15B346008B72F7 /* PthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844E5781D15B346008B72F7 /* PthModel.m */; };
+		1844E57C1D1A5865008B72F7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844E57B1D1A5865008B72F7 /* TableViewController.m */; };
+		1844E5801D1A59CE008B72F7 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 1844E57F1D1A59CE008B72F7 /* select.png */; };
+		1844E5831D1A5A01008B72F7 /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844E5821D1A5A01008B72F7 /* SelectCell.m */; };
+		1844E5871D1A60B7008B72F7 /* SelectCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1844E5861D1A60B7008B72F7 /* SelectCellModel.m */; };
 		187D3C4F1D103353007354AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D3C4E1D103353007354AC /* main.m */; };
 		187D3C5B1D103353007354AC /* iOSKnowledges.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187D3C591D103353007354AC /* iOSKnowledges.xcdatamodeld */; };
 		187D3C5D1D103353007354AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187D3C5C1D103353007354AC /* Assets.xcassets */; };
@@ -58,6 +62,13 @@
 		1844E5741D155808008B72F7 /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		1844E5771D15B346008B72F7 /* PthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PthModel.h; sourceTree = "<group>"; };
 		1844E5781D15B346008B72F7 /* PthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PthModel.m; sourceTree = "<group>"; };
+		1844E57A1D1A5865008B72F7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1844E57B1D1A5865008B72F7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1844E57F1D1A59CE008B72F7 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		1844E5811D1A5A01008B72F7 /* SelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCell.h; sourceTree = "<group>"; };
+		1844E5821D1A5A01008B72F7 /* SelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCell.m; sourceTree = "<group>"; };
+		1844E5851D1A60B7008B72F7 /* SelectCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCellModel.h; sourceTree = "<group>"; };
+		1844E5861D1A60B7008B72F7 /* SelectCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCellModel.m; sourceTree = "<group>"; };
 		187D3C4A1D103353007354AC /* iOSKnowledges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187D3C4E1D103353007354AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		187D3C5A1D103353007354AC /* iOSKnowledges.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSKnowledges.xcdatamodel; sourceTree = "<group>"; };
@@ -124,6 +135,31 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1844E57D1D1A5939008B72F7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				1844E5811D1A5A01008B72F7 /* SelectCell.h */,
+				1844E5821D1A5A01008B72F7 /* SelectCell.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		1844E57E1D1A5939008B72F7 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1844E5841D1A6091008B72F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1844E5851D1A60B7008B72F7 /* SelectCellModel.h */,
+				1844E5861D1A60B7008B72F7 /* SelectCellModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		187D3C411D103353007354AC = {
 			isa = PBXGroup;
 			children = (
@@ -150,9 +186,12 @@
 				187D3C5C1D103353007354AC /* Assets.xcassets */,
 				187D3C611D103353007354AC /* Info.plist */,
 				187D3C591D103353007354AC /* iOSKnowledges.xcdatamodeld */,
-				1844E5761D15B325008B72F7 /* Model */,
 				187D3C861D103BD3007354AC /* Application */,
 				187D3C891D103BD3007354AC /* ViewControllers */,
+				1844E5761D15B325008B72F7 /* Model */,
+				1844E5841D1A6091008B72F7 /* ViewModel */,
+				1844E57D1D1A5939008B72F7 /* CustomView */,
+				1844E57E1D1A5939008B72F7 /* ThirdParty */,
 				187D3C8E1D104030007354AC /* Resources */,
 				187D3C4D1D103353007354AC /* Supporting Files */,
 			);
@@ -199,6 +238,8 @@
 			children = (
 				187D3C8A1D103BD3007354AC /* ViewController.h */,
 				187D3C8B1D103BD3007354AC /* ViewController.m */,
+				1844E57A1D1A5865008B72F7 /* TableViewController.h */,
+				1844E57B1D1A5865008B72F7 /* TableViewController.m */,
 				1844E5661D1554BA008B72F7 /* MThreadViewController.h */,
 				1844E5671D1554BA008B72F7 /* MThreadViewController.m */,
 				1844E5691D15578A008B72F7 /* MThread */,
@@ -209,6 +250,7 @@
 		187D3C8E1D104030007354AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1844E57F1D1A59CE008B72F7 /* select.png */,
 				1844E5601D154286008B72F7 /* Default@2x.png */,
 				1844E5611D154286008B72F7 /* Default.png */,
 				1844E5621D154286008B72F7 /* Default-568h@2x.png */,
@@ -323,6 +365,7 @@
 				1844E5651D154286008B72F7 /* Default-568h@2x.png in Resources */,
 				1844E5641D154286008B72F7 /* Default.png in Resources */,
 				187D3C5D1D103353007354AC /* Assets.xcassets in Resources */,
+				1844E5801D1A59CE008B72F7 /* select.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1844E57C1D1A5865008B72F7 /* TableViewController.m in Sources */,
 				187D3C5B1D103353007354AC /* iOSKnowledges.xcdatamodeld in Sources */,
 				1844E5751D155808008B72F7 /* OperationViewController.m in Sources */,
 				187D3C4F1D103353007354AC /* main.m in Sources */,
@@ -354,9 +398,11 @@
 				1844E5721D1557ED008B72F7 /* GCDViewController.m in Sources */,
 				1844E5681D1554BA008B72F7 /* MThreadViewController.m in Sources */,
 				187D3C8C1D103BD3007354AC /* AppDelegate.m in Sources */,
+				1844E5871D1A60B7008B72F7 /* SelectCellModel.m in Sources */,
 				1844E56C1D1557B2008B72F7 /* PthreadsViewController.m in Sources */,
 				1844E5791D15B346008B72F7 /* PthModel.m in Sources */,
 				1844E56F1D1557E1008B72F7 /* NThreadViewController.m in Sources */,
+				1844E5831D1A5A01008B72F7 /* SelectCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

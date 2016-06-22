@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewController.h"
 #import "MThreadViewController.h"
 
 @interface ViewController ()
@@ -75,6 +76,10 @@
         MThreadViewController *mth = [[MThreadViewController alloc]init];
         [self.navigationController pushViewController:mth animated:YES];
         [mth.navigationController.navigationBar.topItem setTitle:@"MultiThreading"];
+    }else if ([rowTitle isEqualToString:@"TableView"]) {
+        TableViewController *table = [[TableViewController alloc]init];
+        [self.navigationController pushViewController:table animated:YES];
+        [table.navigationController.navigationBar.topItem setTitle:@"TableView"];
     }
 }
 
