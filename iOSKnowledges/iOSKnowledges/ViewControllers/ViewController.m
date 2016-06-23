@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TableViewController.h"
 #import "MThreadViewController.h"
+#import "ALayoutViewController.h"
 
 @interface ViewController ()
 {
@@ -80,6 +81,10 @@
         TableViewController *table = [[TableViewController alloc]init];
         [self.navigationController pushViewController:table animated:YES];
         [table.navigationController.navigationBar.topItem setTitle:@"TableView"];
+    }else if ([rowTitle isEqualToString:@"AutoLayout"]) {
+        ALayoutViewController *al = [[ALayoutViewController alloc]init];
+        [self.navigationController pushViewController:al animated:YES];
+        [al.navigationController.navigationBar.topItem setTitle:@"AutoLayout"];
     }
 }
 
