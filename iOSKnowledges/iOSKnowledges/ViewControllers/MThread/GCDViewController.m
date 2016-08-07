@@ -33,7 +33,7 @@
     //Create Concurrent Thread Queue
     //DISPATCH_QUEUE_CONCURRENT : concurrent queue
     //nil & DISPATCH_QUEUE_SERIAL : serial queue
-    testQueue = dispatch_queue_create("concurrent_testqueue", DISPATCH_QUEUE_CONCURRENT);
+    testQueue = dispatch_queue_create("concurrent_testqueue", DISPATCH_QUEUE_SERIAL);
     
     //Global Concurrent Queue
 //    testQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);

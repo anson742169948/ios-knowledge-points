@@ -38,6 +38,23 @@
 		187D3C761D103353007354AC /* iOSKnowledgesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D3C751D103353007354AC /* iOSKnowledgesUITests.m */; };
 		187D3C8C1D103BD3007354AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D3C881D103BD3007354AC /* AppDelegate.m */; };
 		187D3C8D1D103BD3007354AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D3C8B1D103BD3007354AC /* ViewController.m */; };
+		18A5938C1D1D93EA00DC4948 /* msg_bg_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A5938A1D1D93EA00DC4948 /* msg_bg_1@2x.png */; };
+		18A5938D1D1D93EA00DC4948 /* msg_bg_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A5938B1D1D93EA00DC4948 /* msg_bg_2@2x.png */; };
+		18A593901D1D953300DC4948 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5938F1D1D953300DC4948 /* VideoViewController.m */; };
+		18A593931D1D990B00DC4948 /* MsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A593921D1D990B00DC4948 /* MsgModel.m */; };
+		18B08D6B1D213F4300B6D527 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D6A1D213F4300B6D527 /* AudioViewController.m */; };
+		18B08D6F1D214A3D00B6D527 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D6E1D214A3D00B6D527 /* Global.m */; };
+		18B08D721D214BC700B6D527 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D711D214BC700B6D527 /* BaseViewController.m */; };
+		18B08D751D21595700B6D527 /* AudioTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D741D21595700B6D527 /* AudioTableDelegate.m */; };
+		18B08D781D215C6600B6D527 /* AudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D771D215C6600B6D527 /* AudioCell.m */; };
+		18B08D891D22C9BD00B6D527 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D7D1D22C9BD00B6D527 /* FMDatabase.m */; };
+		18B08D8A1D22C9BD00B6D527 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D7F1D22C9BD00B6D527 /* FMDatabaseAdditions.m */; };
+		18B08D8B1D22C9BD00B6D527 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D811D22C9BD00B6D527 /* FMDatabasePool.m */; };
+		18B08D8C1D22C9BD00B6D527 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D831D22C9BD00B6D527 /* FMDatabaseQueue.m */; };
+		18B08D8D1D22C9BD00B6D527 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D861D22C9BD00B6D527 /* FMResultSet.m */; };
+		18B08D8E1D22C9BD00B6D527 /* HWDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D881D22C9BD00B6D527 /* HWDatabaseManager.m */; };
+		18B08D981D22DED400B6D527 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B08D971D22DED400B6D527 /* BaseModel.m */; };
+		18B08D9B1D22E3D200B6D527 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B08D9A1D22E3D100B6D527 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +139,39 @@
 		187D3C881D103BD3007354AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		187D3C8A1D103BD3007354AC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		187D3C8B1D103BD3007354AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A5938A1D1D93EA00DC4948 /* msg_bg_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg_bg_1@2x.png"; sourceTree = "<group>"; };
+		18A5938B1D1D93EA00DC4948 /* msg_bg_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg_bg_2@2x.png"; sourceTree = "<group>"; };
+		18A5938E1D1D953300DC4948 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		18A5938F1D1D953300DC4948 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		18A593911D1D990B00DC4948 /* MsgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgModel.h; sourceTree = "<group>"; };
+		18A593921D1D990B00DC4948 /* MsgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgModel.m; sourceTree = "<group>"; };
+		18B08D691D213F4300B6D527 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
+		18B08D6A1D213F4300B6D527 /* AudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
+		18B08D6D1D214A3D00B6D527 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		18B08D6E1D214A3D00B6D527 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		18B08D701D214BC700B6D527 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18B08D711D214BC700B6D527 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18B08D731D21595700B6D527 /* AudioTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTableDelegate.h; sourceTree = "<group>"; };
+		18B08D741D21595700B6D527 /* AudioTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTableDelegate.m; sourceTree = "<group>"; };
+		18B08D761D215C6600B6D527 /* AudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCell.h; sourceTree = "<group>"; };
+		18B08D771D215C6600B6D527 /* AudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioCell.m; sourceTree = "<group>"; };
+		18B08D7C1D22C9BD00B6D527 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		18B08D7D1D22C9BD00B6D527 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		18B08D7E1D22C9BD00B6D527 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		18B08D7F1D22C9BD00B6D527 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		18B08D801D22C9BD00B6D527 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		18B08D811D22C9BD00B6D527 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		18B08D821D22C9BD00B6D527 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		18B08D831D22C9BD00B6D527 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		18B08D841D22C9BD00B6D527 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		18B08D851D22C9BD00B6D527 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		18B08D861D22C9BD00B6D527 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		18B08D871D22C9BD00B6D527 /* HWDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDatabaseManager.h; sourceTree = "<group>"; };
+		18B08D881D22C9BD00B6D527 /* HWDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDatabaseManager.m; sourceTree = "<group>"; };
+		18B08D921D22DE3700B6D527 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		18B08D961D22DED400B6D527 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		18B08D971D22DED400B6D527 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		18B08D9A1D22E3D100B6D527 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B08D9B1D22E3D200B6D527 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +220,8 @@
 			children = (
 				1844E5771D15B346008B72F7 /* PthModel.h */,
 				1844E5781D15B346008B72F7 /* PthModel.m */,
+				18A593911D1D990B00DC4948 /* MsgModel.h */,
+				18A593921D1D990B00DC4948 /* MsgModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +231,8 @@
 			children = (
 				1844E5811D1A5A01008B72F7 /* SelectCell.h */,
 				1844E5821D1A5A01008B72F7 /* SelectCell.m */,
+				18B08D761D215C6600B6D527 /* AudioCell.h */,
+				18B08D771D215C6600B6D527 /* AudioCell.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -195,6 +250,8 @@
 			children = (
 				1844E5851D1A60B7008B72F7 /* SelectCellModel.h */,
 				1844E5861D1A60B7008B72F7 /* SelectCellModel.m */,
+				18B08D731D21595700B6D527 /* AudioTableDelegate.h */,
+				18B08D741D21595700B6D527 /* AudioTableDelegate.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -263,7 +320,10 @@
 				1844E5841D1A6091008B72F7 /* ViewModel */,
 				1844E57D1D1A5939008B72F7 /* CustomView */,
 				1844E57E1D1A5939008B72F7 /* ThirdParty */,
+				18B08D7A1D22C9BD00B6D527 /* DataBase */,
+				18B08D6C1D21499900B6D527 /* Base */,
 				187D3C8E1D104030007354AC /* Resources */,
+				18B08D991D22E3B600B6D527 /* Frameworks */,
 				187D3C4D1D103353007354AC /* Supporting Files */,
 			);
 			path = iOSKnowledges;
@@ -316,6 +376,10 @@
 				1844E5881D1B7D9F008B72F7 /* ALayoutViewController.h */,
 				1844E5891D1B7D9F008B72F7 /* ALayoutViewController.m */,
 				1844E5691D15578A008B72F7 /* MThread */,
+				18B08D691D213F4300B6D527 /* AudioViewController.h */,
+				18B08D6A1D213F4300B6D527 /* AudioViewController.m */,
+				18A5938E1D1D953300DC4948 /* VideoViewController.h */,
+				18A5938F1D1D953300DC4948 /* VideoViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -324,11 +388,63 @@
 			isa = PBXGroup;
 			children = (
 				1844E57F1D1A59CE008B72F7 /* select.png */,
+				18A5938A1D1D93EA00DC4948 /* msg_bg_1@2x.png */,
+				18A5938B1D1D93EA00DC4948 /* msg_bg_2@2x.png */,
 				1844E5601D154286008B72F7 /* Default@2x.png */,
 				1844E5611D154286008B72F7 /* Default.png */,
 				1844E5621D154286008B72F7 /* Default-568h@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		18B08D6C1D21499900B6D527 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18B08D6D1D214A3D00B6D527 /* Global.h */,
+				18B08D6E1D214A3D00B6D527 /* Global.m */,
+				18B08D921D22DE3700B6D527 /* Constant.h */,
+				18B08D961D22DED400B6D527 /* BaseModel.h */,
+				18B08D971D22DED400B6D527 /* BaseModel.m */,
+				18B08D701D214BC700B6D527 /* BaseViewController.h */,
+				18B08D711D214BC700B6D527 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		18B08D7A1D22C9BD00B6D527 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				18B08D7B1D22C9BD00B6D527 /* fmdb */,
+				18B08D871D22C9BD00B6D527 /* HWDatabaseManager.h */,
+				18B08D881D22C9BD00B6D527 /* HWDatabaseManager.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		18B08D7B1D22C9BD00B6D527 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				18B08D7C1D22C9BD00B6D527 /* FMDatabase.h */,
+				18B08D7D1D22C9BD00B6D527 /* FMDatabase.m */,
+				18B08D7E1D22C9BD00B6D527 /* FMDatabaseAdditions.h */,
+				18B08D7F1D22C9BD00B6D527 /* FMDatabaseAdditions.m */,
+				18B08D801D22C9BD00B6D527 /* FMDatabasePool.h */,
+				18B08D811D22C9BD00B6D527 /* FMDatabasePool.m */,
+				18B08D821D22C9BD00B6D527 /* FMDatabaseQueue.h */,
+				18B08D831D22C9BD00B6D527 /* FMDatabaseQueue.m */,
+				18B08D841D22C9BD00B6D527 /* FMDB.h */,
+				18B08D851D22C9BD00B6D527 /* FMResultSet.h */,
+				18B08D861D22C9BD00B6D527 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		18B08D991D22E3B600B6D527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B08D9A1D22E3D100B6D527 /* libsqlite3.tbd */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,7 +553,9 @@
 				1844E5631D154286008B72F7 /* Default@2x.png in Resources */,
 				1844E5651D154286008B72F7 /* Default-568h@2x.png in Resources */,
 				1844E5641D154286008B72F7 /* Default.png in Resources */,
+				18A5938C1D1D93EA00DC4948 /* msg_bg_1@2x.png in Resources */,
 				187D3C5D1D103353007354AC /* Assets.xcassets in Resources */,
+				18A5938D1D1D93EA00DC4948 /* msg_bg_2@2x.png in Resources */,
 				1844E5801D1A59CE008B72F7 /* select.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,28 +583,42 @@
 			files = (
 				1844E5A81D1C261E008B72F7 /* MASConstraint.m in Sources */,
 				1844E57C1D1A5865008B72F7 /* TableViewController.m in Sources */,
+				18B08D751D21595700B6D527 /* AudioTableDelegate.m in Sources */,
 				1844E5B01D1C261E008B72F7 /* ViewController+MASAdditions.m in Sources */,
 				187D3C5B1D103353007354AC /* iOSKnowledges.xcdatamodeld in Sources */,
 				1844E5751D155808008B72F7 /* OperationViewController.m in Sources */,
+				18B08D8D1D22C9BD00B6D527 /* FMResultSet.m in Sources */,
+				18B08D721D214BC700B6D527 /* BaseViewController.m in Sources */,
 				187D3C4F1D103353007354AC /* main.m in Sources */,
 				1844E5A71D1C261E008B72F7 /* MASCompositeConstraint.m in Sources */,
 				1844E58A1D1B7D9F008B72F7 /* ALayoutViewController.m in Sources */,
+				18B08D8C1D22C9BD00B6D527 /* FMDatabaseQueue.m in Sources */,
 				1844E5A91D1C261E008B72F7 /* MASConstraintMaker.m in Sources */,
+				18B08D781D215C6600B6D527 /* AudioCell.m in Sources */,
 				1844E5AF1D1C261E008B72F7 /* View+MASAdditions.m in Sources */,
 				187D3C8D1D103BD3007354AC /* ViewController.m in Sources */,
 				1844E5AB1D1C261E008B72F7 /* MASViewAttribute.m in Sources */,
+				18B08D891D22C9BD00B6D527 /* FMDatabase.m in Sources */,
 				1844E5721D1557ED008B72F7 /* GCDViewController.m in Sources */,
+				18A593931D1D990B00DC4948 /* MsgModel.m in Sources */,
 				1844E5AE1D1C261E008B72F7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				1844E5681D1554BA008B72F7 /* MThreadViewController.m in Sources */,
+				18A593901D1D953300DC4948 /* VideoViewController.m in Sources */,
 				187D3C8C1D103BD3007354AC /* AppDelegate.m in Sources */,
 				1844E5871D1A60B7008B72F7 /* SelectCellModel.m in Sources */,
 				1844E5AD1D1C261E008B72F7 /* NSArray+MASAdditions.m in Sources */,
+				18B08D8E1D22C9BD00B6D527 /* HWDatabaseManager.m in Sources */,
+				18B08D6B1D213F4300B6D527 /* AudioViewController.m in Sources */,
 				1844E56C1D1557B2008B72F7 /* PthreadsViewController.m in Sources */,
 				1844E5AC1D1C261E008B72F7 /* MASViewConstraint.m in Sources */,
 				1844E5791D15B346008B72F7 /* PthModel.m in Sources */,
+				18B08D6F1D214A3D00B6D527 /* Global.m in Sources */,
+				18B08D8A1D22C9BD00B6D527 /* FMDatabaseAdditions.m in Sources */,
 				1844E56F1D1557E1008B72F7 /* NThreadViewController.m in Sources */,
 				1844E5AA1D1C261E008B72F7 /* MASLayoutConstraint.m in Sources */,
 				1844E5831D1A5A01008B72F7 /* SelectCell.m in Sources */,
+				18B08D981D22DED400B6D527 /* BaseModel.m in Sources */,
+				18B08D8B1D22C9BD00B6D527 /* FMDatabasePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,7 +691,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -597,7 +729,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -609,7 +741,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIANI MU (69BK6PJFRE)";
 				INFOPLIST_FILE = iOSKnowledges/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LHW.iOSKnowledges;
 				PRODUCT_NAME = iOSKnowledges;
@@ -621,7 +755,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: JIANI MU (69BK6PJFRE)";
 				INFOPLIST_FILE = iOSKnowledges/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LHW.iOSKnowledges;
 				PRODUCT_NAME = iOSKnowledges;

@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseModel.h"
 
-@interface PthModel : NSObject
+@interface PthModel : BaseModel
 
 @property(nonatomic)BOOL isGetNewTH;
 

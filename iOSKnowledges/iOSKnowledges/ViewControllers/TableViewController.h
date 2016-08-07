@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 #import "SelectCellModel.h"
 
-@interface TableViewController : UIViewController
+@interface TableViewController : BaseViewController
 
 @property(nonatomic,retain)SelectCellModel *model; //must be retain
 

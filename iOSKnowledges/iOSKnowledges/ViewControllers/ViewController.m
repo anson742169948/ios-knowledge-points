@@ -10,6 +10,8 @@
 #import "TableViewController.h"
 #import "MThreadViewController.h"
 #import "ALayoutViewController.h"
+#import "AudioViewController.h"
+#import "VideoViewController.h"
 
 @interface ViewController ()
 {
@@ -85,6 +87,10 @@
         ALayoutViewController *al = [[ALayoutViewController alloc]init];
         [self.navigationController pushViewController:al animated:YES];
         [al.navigationController.navigationBar.topItem setTitle:@"AutoLayout"];
+    }else if ([rowTitle isEqualToString:@"Audio"]) {
+        AudioViewController *audio = [[AudioViewController alloc]init];
+        [self.navigationController pushViewController:audio animated:YES];
+        [audio.navigationController.navigationBar.topItem setTitle:@"Audio"];
     }
 }
 

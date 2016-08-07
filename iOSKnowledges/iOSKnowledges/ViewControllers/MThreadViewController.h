@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface MThreadViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@interface MThreadViewController : BaseViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end

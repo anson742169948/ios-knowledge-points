@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@interface ViewController : BaseViewController<UITableViewDelegate,UITableViewDataSource>
 
 @property (strong, nonatomic) UITableView *mainTable;
 
